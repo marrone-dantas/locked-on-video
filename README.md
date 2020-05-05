@@ -9,8 +9,12 @@ A famous application of this type of technique was used on the [Beats By Dre](ht
 
 Bellow, we can san an example, the input video contains a girl dancing on the left, and as output, we get just the video on her face fixed on the right.
 
-[<img src="original.gif" width="250" height="400" />](croped.gif)
-[<img src="croped.gif" width="250" height="400" />](croped.gif)
+<p align="center">
+
+  <img width="250" height="400" src="original.gif">
+  <img width="250" height="400" src="croped.gif">
+
+</p>
 
 We get each video and extract all the frames; on each frame, we detect the faces. With the faces detect, we set the center of the faces and calculate the variance between consecutive frames.  With the variance, we translate the images to the original center (the position the face on the first frame). Since we translate the image, we can get an image border, so to get a clear image, we crop the video.
 
