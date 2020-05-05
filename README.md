@@ -1,6 +1,6 @@
 # Locked-on-video
 
-The locked-on is a simple implementation of the face lock-on in python. Face lock-on is a type of stabilization, but in this case, we keep the face static. 
+The locked-on is a simple implementation of the face locked-on stabilization in python. Face lock-on is a type of stabilization, but in this case, we keep the face static. 
 
 A famous application of this type of technique was used on the [Beats By Dre](https://www.youtube.com/watch?v=Dd1VIeTMGQs). The inspiration for this project came from the tutorial with after-effects on the [Cinecom youtube channel](https://www.youtube.com/watch?v=Z2dTgRbN-3E).  We can get much better results doing the process manually, but here we try to make **automatic** and **free**. 
 
