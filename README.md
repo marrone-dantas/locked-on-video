@@ -38,7 +38,7 @@ The parameters are described bellow:
  - `video_input_path`: the video to be processed
  - `video_output_path`: the output video
  - `x_scale`and `y_scale`: this parameter controls the border expands around the face detected if we want a bigger area around the face; we can tune this parameter.
- - `rate`: since we run the detection on each frame, sometimes it can be time-consuming, this rate reduces the image size to detection. For instance, a `rate==2` reduces the image input dimension by half. If the rate is to low, maybe the detection does not work.
+ - `rate`: since we run the detection on each frame, sometimes it can be time-consuming, this rate reduces the image size to detection. For instance, a `rate==2` reduces the image input dimension by half. If the rate is to high, maybe the detection does not work.
  
 # Known issues
 
