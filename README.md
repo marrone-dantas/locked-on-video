@@ -14,6 +14,16 @@ Bellow, we can san an example, the input video contains a girl dancing on the le
 
 We get each video and extract all the frames; on each frame, we detect the faces. With the faces detect, we set the center of the faces and calculate the variance between consecutive frames.  With the variance, we translate the images to the original center (the position the face on the first frame). Since we translate the image, we can get an image border, so to get a clear image, we crop the video.
 
+# Requiriments
+
+The code was tested on python 3.6. The requirements can be installed by the `requiriments.txt` with `pip install -r requiriments.txt`. Bellow, we can see the requirements.
+
+ - `opencv-python==4.2.0.32`
+ - `face-recognition==1.3.0`
+ - `face-recognition-models==0.3.0`
+ - `numpy==1.18.1`
+ - `moviepy==1.0.2`
+
 # Usage
 
 The usage is pretty simple; you only need a video as input and run the script below.
