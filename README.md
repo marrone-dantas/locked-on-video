@@ -11,8 +11,7 @@ Bellow, we can san an example, the input video contains a girl dancing on the le
 
 <p align="center">
 
-  <img width="250" height="400" src="original.gif">
-  <img width="250" height="400" src="croped.gif">
+  <img  src="joined.gif">
 
 </p>
 
