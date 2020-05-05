@@ -15,7 +15,7 @@ Bellow, we can san an example, the input video contains a girl dancing on the le
 
 </p>
 
-We get each video and extract all the frames; on each frame, we detect the faces. With the faces detect, we set the center of the faces and calculate the variance between consecutive frames.  With the variance, we translate the images to the original center (the position the face on the first frame). Since we translate the image, we can get an image border, so to get a clear image, we crop the video.
+We get each video and extract all the frames; on each frame, we detect the faces. With the faces detect, we set the center of the faces and calculate the variance between consecutive frames.  With the face positions variance, we translate the images to the original center (the position the face on the first frame). Witht he translate image, we can get a black border, to avoid this, we crop the video.
 
 # Requiriments
 
