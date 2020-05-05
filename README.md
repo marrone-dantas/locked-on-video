@@ -33,3 +33,5 @@ The parameters are described bellow:
  - [ ] Work with one person at a time.
  - [ ] It can take some time with large videos.
  - [ ] Change the detections for object tracking.
+ 
+>I want to thank the [face_recognition](https://github.com/ageitgey/face_recognition); this project mainly uses the tools provided by **face_recognition**. 
